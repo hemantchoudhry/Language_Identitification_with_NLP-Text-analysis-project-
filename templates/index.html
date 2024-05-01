@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Language Detection</title>
+	<style>
+		body {
+			text-align: center;
+		}
+	</style>
+	
+</head>
+<body>
+	<h1>Customer Churn Prediction</h1>
+	<form action="/predict" method="post">
+		<div>
+			<!-- <label for="Age" F>Age:</label>
+			<br> -->
+		<textarea name="Text" id="Text" cols="80" rows="15" placeholder="Write Text here" required>{{ textlan }}</textarea>
+	</div>
+	<br>
+	
+	<br>
+	<div>
+		<button>Check</button>
+		<a href="/">Reset</a>
+	</div>
+	</form>
+	<div>
+			<h2> The given text is in {{Result}} </h2>
+	</div>
+</body>
+</html>
